@@ -2,6 +2,9 @@
 
 kafka :
 how to implement idempotency in kafka in spring boot
+https://www.youtube.com/watch?v=mWYn23M5mzM&t=135s
+https://www.youtube.com/watch?v=niYW81iV0q4
+
 
 kafka vs rabbit mq:
 https://www.youtube.com/watch?v=w8xWTIFU4C8
