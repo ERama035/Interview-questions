@@ -1,1 +1,153 @@
 
+---------------------------------------------------------java 8----------------------------------------------------------------
+97 . Is try without catch and finally allowed?
+String imuttability ?..
+
+
+exceptions :
+what is try with resource: 
+100 . What is the difference between checked exceptions and unchecked exceptions?
+104 . How do you create a custom exception?
+106 . Can you explain about try with resources?
+107 . How does try with resources work?
+108 . Can you explain a few exception handling best practices?
+
+garbage collection:
+Can you explain garbage collection with an example?
+java garbage collection mechanisums ?..
+
+data structures: 
+hashmap vs hash set vs concurrenthashmap
+synchronization and its blocks ?..
+Internal working of hashmap and hashset 
+difference between hasmap and hashset?..
+1) difference between hashmap and hastable.
+2) Asynch Hashmap vs Asynch hashTable.
+
+
+streams :
+208 . What is functional programming?
+210 . What is a stream?
+212 . What are intermediate, terminal operations in streams?
+213 . What are method references?
+214 . What are lambda expressions?
+216 . Can you explain the relationship between lambda expression and functional interfaces?
+217 . What is a predicate?
+
+keywords and interfaces :
+difference between volaitile and transient keywords
+comparable and caomparator  interface ?..
+purpose of finalize and finalize method ?..
+what is race condition ?..
+
+scenario based:
+java default method and which scenarios we have to use vs interface ?..
+java lambda functions and functional interface  and collection apis ?..
+spring boot consuming the file based parsing with different types ?..
+java put vs patch in rest apis ?.. 
+
+
+
+---------------------------------------------------------java 17----------------------------------------------------------------
+features : sealabed classes ?..
+
+
+
+-----------------------------------------------------------
+spring :
+spring boot and its annonations ?..
+difference between @qualifier ?..
+
+
+java questions : 
+------------------------------------------
+1) vectors in java 17
+2) parallel streams vs multi threading
+3) sealed classes vs final classes vas interfaces vs abstract classes ?..
+4) what is concurrancy ?..
+
+5) COllections :
+collectors wit groupingby and mapping , entryset
+
+coding questions and Simple questions: 
+-----------------------------------------------------------
+1)Find the first non-repeating character or the longest palindrome in a string.
+2) anagram
+3) remove string duplicates 
+4) string reversal
+5) Find the second highest or second minimum number in an array.
+6) Find the kth largest element in an array.
+7) Reverse a singly linked list or print it in reverse order.
+8) Merge two sorted arrays without using extra space.
+9) Implement a thread-safe HashMap without using ConcurrentHashMap (e.g., using Collections.synchronizedMap).
+10) Grouping & Aggregation: Use Java Streams to group employees by department and fetch the highest salary per department.
+11) Java program to remove duplicates characters from given String. 
+12) Program Remove the second highest element from the HashMap. 
+13) Java program to Generate prime numbers between 1 & given number 
+14) How to find the missing values from a sorted array. 
+15) Java program to input name, middle name and surname of a person and print only the initials. 
+16) Program to Print all Treemap elements? 
+
+
+design patterns :
+---------------------------------------------
+singleton
+abstract
+factory design pattern
+
+
+Micro services :
+---------------------------------------------
+Fault tolerence 
+
+
+java realtime questions:
+---------------------------------------------
+1) continus file reading using chunks
+
+
+Docker:
+-------------------------------------------
+expose cmd.
+
+databases: 
+---------------------------------------------
+1) Write a SQL query to fetch the nth highest salary from an employee table
+2) sharading in mongo db
+1) it divides into chunks -> sharding keys
+config servers
+Mongos Router
+Shards
+shards keys 
+Balancer
+Queries Execute internally 
+
+good blogs:
+https://dev.to/rajkundalia/sharding-with-springboot-5h6l
+https://www.tothenew.com/blog/sharding-distributing-data-across-multiple-machines-with-spring-boot-and-mongodb/
+
+
+error handling in react :
+---------------------------------------------
+we have to use Erroboundry
+
+Errors during rendering	Error Boundary (state-based fallback)
+Errors in event handlers	try/catch + useState
+Errors in async code (fetch, promises)	try/catch + useState
+Errors from external libraries	Wrap with Error Boundary
+
+If your goal is state-driven error handling, combine:
+Error Boundaries → for rendering errors
+Local state (useState) → for async/event errors
+
+This gives you full coverage and keeps your UI stable and predictable.
+If you want, I can also show you with hook: A reusable useError hook
+
+
+----------------------------------------------
+agentic ai :
+questions 
+
+python and spring web site:
+---------------------------------------
+https://www.bezkoder.com/category/python/
